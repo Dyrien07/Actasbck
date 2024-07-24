@@ -28,6 +28,11 @@ Este proyecto es un servidor REST diseñado para gestionar actas. Está construi
     DBPWD=
     DBNAME=
     DBSV=
+    SMTP=
+    SMTPPORT=
+    MAIL=
+    MAILPASS=
+    
     ```
 
    

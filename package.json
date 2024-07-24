@@ -1,7 +1,7 @@
 {
   "name": "server-gestion",
   "version": "1.0.0",
-  "description": "Servidor REST para sistema de gestión estratégica financiera",
+  "description": "Servidor REST para sistema de gestióon de actas",
   "main": "app.js",
   "scripts": {
     "start": "node src/app.js",

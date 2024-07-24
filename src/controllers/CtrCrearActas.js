@@ -205,13 +205,13 @@ const SendCode = async (req, res) => {
     const { to, code, idActa } = req.body;
 
     let transporter = nodemailer.createTransport({
-        host: "smtp.office365.com",
-        port: 587,
+        host: process.env.SMTP,
+        port: process.env.SMTPPORT,
         secure: false,
         auth: {
             type: "login",
-            user: "noresponder@id-logistics.com",
-            pass: 'Seen826"less',
+            user: process.env.MAIL,
+            pass: process.env.MAILPASS
         },
         tls: {
             rejectUnauthorized: false,

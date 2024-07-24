@@ -9,14 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nahuelmatiasdelacruz/gestion-estrategica-financiera-idl.git"
+    "url": "git+https://github.com/Dyrien07/Actasbck"
   },
   "author": "Ignacio Martin Elisii",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nahuelmatiasdelacruz/gestion-estrategica-financiera-idl/issues"
-  },
-  "homepage": "https://github.com/nahuelmatiasdelacruz/gestion-estrategica-financiera-idl#readme",
+ 
+  "homepage": "https://github.com/Dyrien07/Actasbck/tree/main#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
